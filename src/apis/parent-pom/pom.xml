@@ -44,8 +44,7 @@
 						<configuration>
 							
 							<overwrite>true</overwrite>
-							
-							<outputDirectory>${basedir}/target/apiproxy</outputDirectory>
+				
 							<resources>
 								<resource>
 							
