@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><APIProxy name="testyahoo" revision="1">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1444114555087</CreatedAt>
+    <CreatedBy>madhurika.sharmaa@gmail.com</CreatedBy>
+    <Description>msharm58 git: 66677879 WJNJINPF01R82E</Description>
+    <DisplayName>testyahoo</DisplayName>
+    <LastModifiedAt>1444114878959</LastModifiedAt>
+    <LastModifiedBy>madhurika.sharmaa@gmail.com</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
