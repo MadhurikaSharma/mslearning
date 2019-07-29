@@ -22,8 +22,7 @@
     <artifactId>getConsumer</artifactId>
     <packaging>pom</packaging>
     <version>-</version>
-	<name>getConsumer</name>
-	
+	<name>getConsumer</name>	
     <pluginRepositories>
         <pluginRepository>
             <id>central</id>
@@ -43,8 +42,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <org.slf4j.simpleLogger.defaultLogLevel>info</org.slf4j.simpleLogger.defaultLogLevel>
         <project.root.dir>${basedir}/..</project.root.dir>
+		<target.root.dir>${basedir}/target</target.root.dir>
     </properties>
-
     <build>
         <plugins>
             <plugin>
@@ -54,8 +53,27 @@
 			<plugin>
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>2.6</version>
+				<executions>
+					<!-- copy node.js root folder resources to target folder -->					
+					<!-- Copy the full apiproxy folder to target folder -->
+					<execution>
+						<id>copy-resources</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<overwrite>true</overwrite>
+							<resources>
+								<resource>
+									<directory>${project.root.dir}/apiproxy</directory>
+								</resource>
+							</resources>
+							<outputDirectory>${target.root.dir}/apiproxy</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
-
             <plugin>
                 <groupId>io.apigee.build-tools.enterprise4g</groupId>
                 <artifactId>apigee-edge-maven-plugin</artifactId>
