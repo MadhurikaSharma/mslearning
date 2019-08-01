@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProxyEndpoint name="default">
     <Description/>
+    <FaultRules/>
     <PreFlow name="PreFlow">
-        <Request/>
+        <Request>
+            <Step>
+                <Name>AssignQueryParam</Name>
+            </Step>
+        </Request>
         <Response/>
     </PreFlow>
-    <Flows/>
     <PostFlow name="PostFlow">
         <Request/>
         <Response/>
     </PostFlow>
+    <Flows/>
     <HTTPProxyConnection>
-        <BasePath>/testyahoo/v1</BasePath>
-       <!-- <VirtualHost>default</VirtualHost> -->
+        <BasePath>/mavenplugin2</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>
     <RouteRule name="default">
