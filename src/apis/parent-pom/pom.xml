@@ -25,8 +25,8 @@
    	</properties>
 
 	<modules>
-		<module>../testyahoo</module>
-		<module>../getConsumer</module>
+		<module>../mavenplugintest</module>
+		<module>../mavenplugintest2</module>
 		
 	</modules>
 	<build>
@@ -59,7 +59,7 @@
 			<plugin>
 				  <groupId>io.apigee.build-tools.enterprise4g</groupId>
         <artifactId>apigee-edge-maven-plugin</artifactId>
-                <version>1.1.6</version>
+                <version>1.0.0</version>
 				<executions>
 					<execution>
 						<id>configure-bundle-step</id>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="1" name="testyahoo">
+<APIProxy revision="1" name="MavenPlugin-Test">
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
-    <CreatedAt>1444114555087</CreatedAt>
-    <CreatedBy>madhurika.sharmaa@gmail.com</CreatedBy>
-    <Description>Test</Description>
-    <DisplayName>testyahoo</DisplayName>
-    <LastModifiedAt>1444114878959</LastModifiedAt>
-    <LastModifiedBy>madhurika.sharmaa@gmail.com</LastModifiedBy>
+    <CreatedAt>1461577127892</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description>MavenTest1</Description>
+    <DisplayName>MavenPluginTest</DisplayName>
+    <LastModifiedAt>1461577127892</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
     <Policies/>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>
@@ -16,5 +16,4 @@
     <TargetEndpoints>
         <TargetEndpoint>default</TargetEndpoint>
     </TargetEndpoints>
-    <validate>false</validate>
 </APIProxy>

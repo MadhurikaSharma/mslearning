@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<TargetEndpoint name="default">
+<?xml version="1.0" encoding="UTF-8"?><TargetEndpoint name="default">
     <Description/>
     <FaultRules/>
     <PreFlow name="PreFlow">
@@ -13,6 +12,6 @@
     <Flows/>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>http://mocktarget.apigee.net/json</URL>
+        <URL>https://httpbin.org/response-headers</URL>
     </HTTPTargetConnection>
 </TargetEndpoint>
